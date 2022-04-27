@@ -55,7 +55,6 @@ curl -i \
 
 ## Extra Credit
 The better looking the UI, the more extra credit you get.
-Implement the ability to save the animal selection so that refreshing the page keeps your animal selection.
 
 ## Submit your work
 When you have completed the feature, send an email to: assessments@razoyo.com
