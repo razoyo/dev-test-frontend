@@ -32,7 +32,8 @@ The response will have a header called `Your-Token` is used when calling the "ge
 
 For example:
 ```
-curl -H 'Accept: application/json' \
+curl -i \
+    -H 'Accept: application/json' \
     https://dev-test-frontend-werpwe2p3q-uc.a.run.app/cars?make=Honda
 ```
 
@@ -46,10 +47,10 @@ You must include the `Your-Token` value from the "list cars" response to authent
 
 For example:
 ```
-curl \
+curl -i \
     -H 'Accept: application/json' \
     -H 'Authorization: {Your-Token}' \
-    https://dev-test-frontend-werpwe2p3q-uc.a.run.app/cars?make=Honda
+    https://dev-test-frontend-werpwe2p3q-uc.a.run.app/cars/wj6qg7zpt09udm1m
 ```
 
 ## Extra Credit
